@@ -1,0 +1,84 @@
+*******
+String 1
+*******
+
+Special case 2: rem_str: g	str: geeg
+Special case 3: rem_str: r	str: rgeer	last_removed: g
+Special case 3: rem_str: or	str: orgeor	last_removed: g
+Special case 3: rem_str: for	str: forgfor	last_removed: g
+Special case 3: rem_str: sfor	str: sforsfor	last_removed: g
+Special case 3: rem_str: ksfor	str: ksfoksfor	last_removed: g
+Special case 3: rem_str: gksfor	str: geeksfgksfor	last_removed: g
+gksfor
+*******
+String 2
+*******
+
+Special case 3: rem_str: zy	str: zy	last_removed: x
+Special case 2: rem_str: zy	str: zxxxzy
+Special case 3: rem_str: ay	str: azxxxay	last_removed: z
+ay
+*******
+String 3
+*******
+
+Special case 2: rem_str: c	str: caaabbbaac
+
+*******
+>>> String 4
+*******
+
+g
+*******
+String 5
+*******
+
+Special case 3: rem_str: a	str: appa	last_removed: p
+Special case 3: rem_str: ca	str: capca	last_removed: p
+Special case 2: rem_str: ca	str: cddddcapca
+a
+*******
+String 6
+*******
+
+
+*******
+String 7
+*******
+
+Special case 3: rem_str: rq	str: rq	last_removed: a
+Special case 3: rem_str: prq	str: prq	last_removed: a
+Special case 3: rem_str: dprq	str: dprq	last_removed: a
+Special case 2: rem_str: dprq	str: daaaaadprq
+Special case 2: rem_str: prq	str: paaaaadaaaaadprq
+Special case 3: rem_str: qrq	str: qpaaaaadaaaaadqrq	last_removed: p
+qrq
+*******
+String 8
+*******
+
+Special case 3: rem_str: c	str: cdddc	last_removed: d
+Special case 3: rem_str: ac	str: acddac	last_removed: d
+Special case 3: rem_str: cac	str: caaabbbacdcac	last_removed: d
+Special case 3: rem_str: acac	str: acaaabbbacacac	last_removed: d
+acac
+*******
+>>> String 9
+*******
+
+Special case 2: rem_str: c	str: cddc
+Special case 2: rem_str: 	str: cbbcddc	last_removed: c
+Special case 3: rem_str: a	str: acbbcdda	last_removed: c
+a
+*******
+String Case 3
+*******
+
+Special case 3: rem_str: ac	str: abac	last_removed: b
+ac
+*******
+String Case 1
+*******
+
+Special case 2: rem_str: a	str: abba
+
